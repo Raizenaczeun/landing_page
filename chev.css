@@ -1,0 +1,527 @@
+
+/* desktop */
+@media screen and (min-width: 760px){
+    #img{
+        object-fit: cover;
+    }
+    body{
+        background-color: rgb(241, 241, 241);
+    }
+
+    .banner1 {
+        position: relative;
+        background-image: url("truck.webp");
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        color: #fff;
+        padding: 20px; /* Add padding to create space around content */
+    }
+
+    .title {
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height: 60px;
+        text-align: right;
+        text-shadow: 10px 2px 20px rgba(0, 0, 0, 0.5);
+        letter-spacing: 4px;
+        margin-bottom: 20px; /* Add margin below the title */
+    }
+
+    #banner .btn-primary {
+        background-color: #ff2929;
+        border-color: aliceblue;
+        color: white;
+        padding: 13px 55px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bolder;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+
+
+
+    #banner .btn-primary:hover{
+        background-color: #de0000;
+        color: rgb(255, 255, 255);
+    }
+
+    .imgscale2{
+        transition: transform .5s ease;
+    }
+
+    .imgscale2:hover{
+        transform: scale(1.1);
+
+    }
+
+    .title2{
+        color: black;
+        margin-top: 50px;
+        font-size: 45px;
+    }
+
+    .p1{
+        align-items: center;
+        font-size: 27px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .specs{
+        margin-top: 50px;
+        color: black;
+        font-size: 23px;
+    }
+
+    .text{
+        font-size: 20px;
+        padding-bottom: 70px;
+    }
+
+    .truck{
+        width: 100%;
+        height: auto;
+    }
+
+    .bullets{
+        color: black;
+        text-align: left;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-bottom: 70px;
+    }
+
+    .specs3{
+        font-weight: bolder;
+        margin-top: 50px;
+        color: black;
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    .zoom{
+        overflow: hidden;
+    }
+
+    .text1{
+        text-align: justify;
+        font-size: 25px;
+        margin-bottom: 70px;
+    }
+
+    .int{
+        font-size: 22px;
+        text-align: center;
+        color: black;
+    }
+
+    .title3{
+        margin-top: 50px;
+        color: black;
+        font-size: 45px;
+    }
+
+    .int1{
+        font-size: 22px;
+        color: black;
+        text-align: justify;
+        margin-top: 40px;
+        margin-bottom: 70px;
+    }
+
+    .spec{
+        font-weight: bolder;
+        font-size: 22px;
+        color: black;
+        text-align: center;
+    }
+
+    .bullet{
+        font-size: 20px;
+        color: black;
+    }
+
+    .banner10{
+        margin-bottom: 70px;
+    }
+
+    .p2{
+        margin-bottom: 70px;
+        font-size: 25px;
+        color: black;
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+    .titled{
+        font-size: 40px;
+        color: black;
+    }
+
+    .car{
+        margin-bottom: 20px;
+    }
+
+    .bala{
+        font-size: 22px;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width:1023px){
+    #img{
+        object-fit: cover;
+    }
+    body{
+        background-color: rgb(241, 241, 241);
+    }
+
+    .banner1{
+        background-image: url("truck.webp");
+        width: 100%;
+        height: 240px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        background-position: center;
+        color: #fff  ;
+
+    }
+
+    .title{
+      display: none;
+    }
+
+    #banner .btn-primary{
+        background-color: #ff2929;
+        border-color: aliceblue;
+        color: white;
+        padding: 13px 55px;
+        text-align: center;
+        display:none;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bolder;
+        border-radius: 5px;
+        align-items: left;
+
+    }
+
+    #banner .btn-primary:hover{
+        background-color: #de0000;
+        color: rgb(255, 255, 255);
+    }
+
+    .imgscale2{
+        transition: transform .5s ease;
+    }
+
+    .imgscale2:hover{
+        transform: scale(1.1);
+
+    }
+
+    .title2{
+        color: black;
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    .p1{
+        align-items: center;
+        font-size: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+
+    .specs{
+        font-weight: bold;
+        margin-top: 50px;
+        color: black;
+        font-size: 23px;
+    }
+
+    .text{
+        font-size: 20px;
+        padding-bottom: 50px;
+
+    }
+
+    .truck{
+        width: 100%;
+        height: auto;
+    }
+
+    .bullets{
+        color: black;
+        text-align: left;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-bottom: 70px;
+    }
+
+    .specs3{
+        font-weight: bolder;
+        margin-top: 50px;
+        color: black;
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    .zoom{
+        overflow: hidden;
+    }
+
+    .text1{
+        text-align: justify;
+        font-size: 25px;
+        margin-bottom: 70px;
+    }
+
+    .int{
+        font-size: 22px;
+        text-align: center;
+        color: black;
+    }
+
+    .title3{
+        margin-top: 50px;
+        color: black;
+        font-size: 45px;
+    }
+
+    .int1{
+        font-size: 22px;
+        color: black;
+        text-align: justify;
+        margin-top: 40px;
+        margin-bottom: 70px;
+    }
+
+    .spec{
+        font-weight: bolder;
+        font-size: 17px;
+        color: black;
+        text-align: center;
+    }
+
+    .bullet{
+        font-size: 17px;
+        color: black;
+    }
+
+    .banner10{
+        margin-bottom: 70px;
+    }
+
+    .p2{
+        margin-bottom: 70px;
+        font-size: 22px;
+        color: black;
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+    .titled{
+        font-size: 30px;
+        color: black;
+    }
+
+    .car{
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+
+    .bala{
+        font-size: 22px;
+    }
+}
+
+/*mobile*/
+@media screen and (max-width: 767px){
+    #img{
+        object-fit: cover;
+    }
+    body{
+        background-color: rgb(241, 241, 241);
+    }
+
+    .banner1{
+        width: 100%;
+        height: 130px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("truck.webp");
+        display: flex;
+        background-position: center;
+        color: #fff  ;
+
+    }
+
+    .title{
+        display: none;
+        margin-left: 470px;
+        margin-top: 10px;
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height: 60px;
+        text-align: right;
+        text-shadow: 10px 2px 20px rgba(0, 0, 0, 0.5);
+        letter-spacing: 4px;
+    }
+
+    #banner .btn-primary{
+        margin-left: 950px;
+        background-color: #ff2929;
+        border-color: aliceblue;
+        color: white;
+        padding: 13px 55px;
+        text-align: center;
+        display: none;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bolder;
+        border-radius: 5px;
+
+    }
+
+    #banner .btn-primary:hover{
+        background-color: #de0000;
+        color: rgb(255, 255, 255);
+    }
+
+    .imgscale2{
+        transition: transform .5s ease;
+    }
+
+    .imgscale2:hover{
+        transform: scale(1.1);
+
+    }
+
+    .title2{
+        color: black;
+        margin-top: 25px;
+        font-size: 35px;
+    }
+
+    .p1{
+        align-items: center;
+        font-size: 24px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .specs{
+        margin-top: 50px;
+        color: black;
+        font-size: 23px;
+    }
+
+    .text{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .truck{
+        width: 100%;
+        height: auto;
+    }
+
+    .bullets{
+        color: black;
+        text-align: left;
+        font-size: 17px;
+    }
+
+    .specs3{
+        font-weight: bolder;
+        margin-top: 50px;
+        color: black;
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    .zoom{
+        overflow: hidden;
+    }
+
+    .text1{
+        text-align: justify;
+        font-size: 25px;
+        margin-bottom: 70px;
+    }
+
+    .int{
+        font-size: 22px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+
+    .title3{
+        margin-top: 50px;
+        color: black;
+        font-size: 45px;
+    }
+
+    .int1{
+        font-size: 22px;
+        color: black;
+        text-align: justify;
+        margin-top: 40px;
+        margin-bottom: 70px;
+    }
+
+    .spec{
+        font-weight: bolder;
+        font-size: 17px;
+        color: black;
+        text-align: center;
+    }
+
+    .bullet{
+        font-size: 17px;
+        color: black;
+        margin-bottom: 50px;
+    }
+
+    .banner10{
+        margin-bottom: 70px;
+    }
+
+    .p2{
+        margin-bottom: 70px;
+        font-size: 25px;
+        color: black;
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+    .titled{
+        font-size: 40px;
+        color: black;
+    }
+
+    .car{
+        margin-bottom: 20px;
+    }
+
+    .bala{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+}
